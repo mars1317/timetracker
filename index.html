@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stopwatch</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+  <div class="layout">
+    <div class="container">
+      <div class="info-block">
+        <div class="info-block__container">
+          <header class="header">
+            <h1 class="info__block__title"> Time tracker</h1>
+            
+          </header>
+            <div class="notification">
+            </div>
+            <div class="weather-container">
+              <section class="weather">
+                <div class="weather-icon"></div>
+                <div class="temperature-value"> <p>  <span> C</span></p> </div>
+                <div class="temperature-description"><p></p></div>
+              </section>
+              <div class="location"> <p> location </p> </div>
+            </div>
+        </div>
+        
+      </div>
+      <div class="week" id="week">
+
+
+      </div>
+      <!-- <audio id="sound" src="../.././assets/images/juntos.mp3"></audio>   -->
+
+      <div class="timercontainer">
+        <div class="timers-block">
+          <div class="timers_block__container" id="timers_container">
+          </div>
+          <button class="clearAllButton" id="clearAllTasks">
+            <img src="src/assets/images/remove.png">
+          </button>
+          <div class="timers_block__input" id="timers_block_input">
+            <input type="text" class="inputText" id="inputText" placeholder="Write....">
+            <button class="addButton" id="addTimer" value="Add Timer">
+              <img src="src/assets/images/plus.png">
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
